@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66bbd25afcf08fc46b40958ae5b98b01, type: 3}
+  m_Name: DefaultMapSettings
+  m_EditorClassIdentifier: 
+  BlockMaterials:
+  - StateType: 0
+    Material: {fileID: 2100000, guid: 4629d81e90724cc46b67f2e11fbb3734, type: 2}
+  - StateType: 1
+    Material: {fileID: 2100000, guid: 60d6e6dcf671dfa4e851e390c75dd017, type: 2}
+  - StateType: 2
+    Material: {fileID: 2100000, guid: e05421df1254185478f0b84be799499d, type: 2}
+  - StateType: 3
+    Material: {fileID: 2100000, guid: c1fd7f53ccbc819489a706ba3d69e2cc, type: 2}
+  - StateType: 4
+    Material: {fileID: 2100000, guid: 9f41a010bde5d754db08f78a8e90523b, type: 2}
+  - StateType: 5
+    Material: {fileID: 2100000, guid: e05421df1254185478f0b84be799499d, type: 2}
+  - StateType: 6
+    Material: {fileID: 2100000, guid: f8d6b27d58ab3fa4992233ad93c3baaa, type: 2}
+  PlayerMovementSpeed: 8
+  EnemyMovementSpeed: 1
+  PlayerBlockScale: {x: 0.95, y: 1, z: 0.95}
+  EnemyBlockScale: {x: 0.95, y: 1, z: 0.95}
+  TrailBlockScale: {x: 1, y: 0.7, z: 1}
+  CompletedBlockScale: {x: 1, y: 0.9, z: 1}
+  CrystalBlockScale: {x: 0.9, y: 0.9, z: 0.9}
